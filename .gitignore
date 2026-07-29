@@ -1,0 +1,24 @@
+# data
+data/raw/*
+data/interim/*
+data/processed/*
+!data/**/.gitkeep
+
+# models
+models/*.pkl
+models/*.joblib
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# reports
+reports/figures/*
+!reports/figures/.gitkeep
+
+# os
+.DS_Store
+Thumbs.db
